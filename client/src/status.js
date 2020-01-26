@@ -1,0 +1,7 @@
+export const STATUS = {
+    INITIAL : "INITIAL",
+     STARTED : "STARTED",
+     IN_PROGRESS : "IN-PROGRESS",
+     BLOCKED : "BLOCKED",
+     COMPLETED :"COMPLETED"
+}

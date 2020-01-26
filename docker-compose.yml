@@ -1,0 +1,23 @@
+version: '3.3'
+
+services:
+   server:
+     build: ./server
+    #  image: todo-app-server:latest
+     volumes:
+     -  .:/server
+     ports:
+     - "3001:3001"
+     restart: always
+
+  #  client:
+    #  depends_on:
+      #  - server
+     #image: todo-app-client:latest
+    #  build: ./client
+    #  image: todo-app-server:latest
+    #  volumes:
+    #  -  .:/client
+    #  ports:
+    #  - "3000:3000"
+    #  restart: always

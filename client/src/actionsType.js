@@ -1,0 +1,9 @@
+
+export const ADD_CARD="ADD_CARD";
+export const REMOVE_CARD="REMOVE_CARD";
+export const FETCH_TODOS = "FETCH_TODOS";
+export const FETCH_TODOS_SUCCESS = "FETCH_TODOS_SUCCESS";
+export const FETCH_TODOS_ERROR = "FETCH_TODOS_ERROR";
+
+// MARK_COMPLETED} =
+//{, "MARK_COMPLETED"};
